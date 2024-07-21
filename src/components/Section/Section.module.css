@@ -1,6 +1,9 @@
 .sectionTitle {
     margin-bottom: 20px;
     margin-top: 20px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
 }
 
 .divSection {
@@ -9,4 +12,8 @@
     border-radius: 0%;
     box-shadow: none;
     border-radius: 5px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    
 }
