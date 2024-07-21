@@ -14,7 +14,7 @@ export const App = () => {
   };
 
   //Displays the Percentage of positive reviews
-  countPositiveFeedbackPercentage = () => {
+  const countPositiveFeedbackPercentage = () => {
     const { good } = feedback;
     const total = countTotalFeedback();
     //returns the positive percentage
@@ -55,16 +55,3 @@ export const App = () => {
     </div>
   );
 };
-
-
-
-  
-
-  
-
-   
-
-  
-
-  
-}
